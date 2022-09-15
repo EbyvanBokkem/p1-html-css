@@ -1,39 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <form>
-        <label for="username">Username:</label><br>
-        <input type="text">
-        <br>
-        <label for="last name">last name:</label><br>
-        <input type="text">
-        <br>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <br>
-        <label for="address">address:</label><br>
-        <input type="text">
-        <br>
-        <label for="postal code">postal code</label><br>
-        <input type="text">
-        <br>
-        <label for="city">city</label><br>
-        <input type="text">
-        <br>
-        <label for="country">country</label><br>
-        <input type="text">
-        
-    
-    
-    
-    
+  </head>
+  <body>
+    <form action="result.html" method="post">
+      <div>
+        <label for="name">First name:</label>
+        <input
+          class="type"
+          ="text"
+          id="name"
+          name="First name"
+          pattern="[A-Za-z]+$"
+          placeholder="First name"
+          required
+        />
+      </div>
+      <div>
+        <label for="name">Surname:</label>
+        <input
+          type="text"
+          id="name"
+          name="Surname"
+          pattern="[A-Za-z]+$"
+          placeholder="Surname"
+          required
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <label for="Address">Address:</label>
+        <input
+          type="text"
+          id="Address"
+          name="Address"
+          placeholder="Address"
+          required
+        />
+      </div>
+      <div>
+        <label for="Postal code">Postal code</label>
+        <input
+          type="text"
+          id="Postal code"
+          name="Postal code"
+          placeholder="Postal code"
+          required
+        />
+      </div>
+      <div>
+        <label for="City">City</label>
+        <input type="text" id="City" name="City" placeholder="City" required />
+      </div>
+      <div>
+        <label for="country">country</label>
+        <input
+          type="text"
+          id="country"
+          name="Country"
+          placeholder="Country"
+          required
+        />
+      </div>
+      <div>
+        <label for="BSN Number">BSN Number</label>
+        <input
+          type="text"
+          id="BSN Number"
+          name="BSN Number"
+          pattern="[0-9]+"
+          minlength="9"
+          maxlength="9"
+          placeholder="BSN Number"
+          required
+        />
+      </div>
+      <div>
+        <label for="Holiday Destination">Holiday Destination</label>
+        <select name="Holiday Destination" id="Holiday Destination">
+          <option value="--Select--">--Select--</option>
+          <option value="Japan">Japan</option>
+          <option value="China">China</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="United States">United States</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Spain">Spain</option>
+          <option value="Azerbaijan">Azerbaijan</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Abu Dhabi">Abu Dhabi</option>
+          <option value="South-Korea">South-Korea</option>
+          <option value="Sweden">Sweden</option>
+        </select>
+      </div>
+      <div>
+        <label for="Departure">Departure</label>
+        <input
+          type="date"
+          name="Departure"
+          id="Departure"
+          min="2022-09-15"
+          required
+        />
+      </div>
+      <div>
+        <label for="Date of Return">Date of Return</label>
+        <input type="date" name="Date of Return" id="Date of Return" required />
+      </div>
+      <div>
+        <label for="Number of persons">Number of persons</label>
+        <input
+          type="number"
+          id="Number of persons"
+          name="Number of persons"
+          min="1"
+          max="4"
+          required
+        />
+      </div>
+      <div>
+<label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" placeholder="Email" required>
+      </div>
+      <div>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password" required>
+      </div>
+      <button type="submit">Send</button>
     </form>
-
-</body>
+  </body>
 </html>
