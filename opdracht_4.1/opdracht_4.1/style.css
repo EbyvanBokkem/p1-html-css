@@ -21,9 +21,22 @@ p{
 }
 p1{
     font-weight: bold;
-    color: #4D4D4d;
+    color: white;
 }
 a{
     color: #8A2BE2;
     text-decoration: none;
+}
+header{ 
+    width: 100vw;
+    height: 33vh;
+    background-image: url("./img/W\ game.png");
+    background-size: cover;
+    
+}
+article{
+    border: 2px solid;
+    border-color: blue;
+    border-left: 4px solid;
+    border-radius: 25px;
 }
