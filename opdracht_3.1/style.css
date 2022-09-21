@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Goldman", cursive;
+  
 }
 
 nav {
@@ -43,11 +43,13 @@ html{
 
 p{
   color: white;
+  font-family: "Goldman", cursive;
   
   
 }
 h1{
   color: white;
+  font-family: "Goldman", cursive;
 
    
 }
@@ -55,6 +57,7 @@ h2{
   color: white;
   position: absolute;
   left: 50%;
+  font-family: "Goldman", cursive;
 }
 
 
@@ -72,6 +75,7 @@ footer{
   width: 100vw;
   text-align: center;
   padding: 30px;
+  
 }
 
 
