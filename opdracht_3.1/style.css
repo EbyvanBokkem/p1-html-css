@@ -41,27 +41,32 @@ html {
   background-color: black;
 }
 
+body {
+  position: relative;
+  min-height: 100vh;
+}
 p {
   color: white;
   font-size: 3rem;
   width: 50vw;
   border: 2px solid red;
-  padding-left: 1rem;
   font-weight: 400;
   height: 20vh;
-  padding-top: 10rem;
+  margin: 10rem 0rem 0rem 0rem;
 }
-.imgs_r, .imgs_l {
+.imgs_r {
   border: 2px solid blue;
   width: 30vw;
   height: 50vh;
   margin: 10rem;
 }
-.imgs_l{
-  margin-right: 10rem;
-  
-  width: 40vw;
+.imgs_l {
+  border: 2px solid blue;
+  width: 30vw;
+  height: 50vh;
+  margin: 10rem;
 }
+
 h1 {
   color: white;
   font-size: 2rem;
@@ -76,13 +81,6 @@ h2 {
   padding-top: 6rem;
 }
 
-footer {
-  background-color: #00a8c7;
-  height: 10vh;
-  width: 100vw;
-  text-align: center;
-  padding: 30px;
-}
 .first {
   background-image: url(./img/hacker\ afbeelding.avif);
   background-position: center;
@@ -90,6 +88,8 @@ footer {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section {
   width: 100vw;
@@ -115,10 +115,23 @@ section {
   padding: 10px;
   padding-top: 7rem;
   padding-left: 20rem;
+  border: 2px color purple;
 }
 .sql1 {
   display: flex;
   padding: 10px;
   padding-top: 7rem;
   padding-right: 20rem;
+}
+
+footer {
+  background-color: #00a8c7;
+  text-align: center;
+  padding: 2.5rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  font-size: 2rem;
+  margin-top: 3rem;
 }
