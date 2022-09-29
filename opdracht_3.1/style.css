@@ -36,7 +36,52 @@ nav a {
 nav img {
   width: 5vw;
 }
+.dropbtn {
+  background-color: #00a8c7;
+  color: white;
+  padding: 0 4rem 0 4rem;
+  font-size: 2.5rem;
+  border: none;
+  font-family: "Goldman", cursive;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 16rem;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 2rem 2rem;
+  text-decoration: none;
+  display: block;
+  font-family: "Goldman", cursive;
+  font-size: 2.5rem;
+}
 
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.dropbtn:hover {
+  color: #00a8c7;
+}
+.dropdown:hover .dropbtn {
+  color: #00a8c7;
+}
 html {
   background-color: black;
 }
