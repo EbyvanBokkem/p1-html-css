@@ -1,0 +1,25 @@
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+  .square1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+  .square2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+  }
+  .square3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+  .square4 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+  }
