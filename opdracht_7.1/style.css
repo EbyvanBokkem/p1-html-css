@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding:0
+}
+
+.header_2 {
+    background-color: green;
+    width: 100vw;
+    height: 10vh;
+}
+
+.title_1 {
+    background-color: red;
+    width: 100vw;
+    height: 30vh;
+}
+.title_2 {
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 30vh;
+}
+
+.title_3 {
+    background-color: purple;
+    width: 100vw;
+    height: 30vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .header_2 {
+      background-color: lightcyan;
+    }
+    .title_1 {
+      background-color: lightslategray;
+    }
+    .title_2 {
+      background-color: lightcoral;
+    }
+    .title_3 {
+      background-color: lightsalmon;
+    }
+  }
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    .header_2 {
+      background-color: pink;
+    }
+    .title_1 {
+      background-color: crimson;
+    }
+    .title_2 {
+      background-color: blueviolet;
+    }
+    .title_3 {
+      background-color: plum;
+    }
+  }
