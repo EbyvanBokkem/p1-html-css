@@ -1,0 +1,108 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: ;
+  font-weight: 400;
+  position: relative;
+  min-height: 100vh;
+}
+p,
+h1,
+h2 {
+  color: white;
+}
+/* begin nav */
+nav {
+  display: flex;
+  width: 100vw;
+  padding: 2rem;
+  height: 7.5vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #131c27;
+  justify-content: space-between;
+  position: fixed;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+li {
+  font-size: 3rem;
+  padding: 0 4rem 0 4rem;
+  margin-right: 15rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.navtitle {
+  color: white;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+/* einde nav */
+/* begin 1e pagina */
+.header1 {
+  text-align: center;
+  width: 100%;
+  padding-top: 40rem;
+  font-weight: bold;
+  font-size: 6rem;
+}
+.t1 {
+  text-align: center;
+  width: 100%;
+  padding-top: 2em;
+  font-weight: bold;
+  font-size: x-large;
+}
+.page1 {
+  background-image: url(img/landing-page.jpg);
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+.button1 {
+  padding: 2rem 6rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: #4c6e97;
+  border: none;
+  color: #ffffff;
+}
+.button {
+  text-align: center;
+}
+
+/* einde 1e pagina */
+/* begin 2e pagina */
+.page2 {
+  background-image: url(./img/new-york-page.png);
+  background-size: contain;
+  height: 100vh;
+  color: white;
+  background-color: grey;
+}
+.headerh2 {
+  border-bottom: solid 0.8rem;
+  width: 40%;
+  font-size: 3.5rem;
+  margin-left: 3rem;
+}
+.header2 {
+  font-weight: bold;
+  color: white;
+  padding-top: 40rem;
+}
+.t2{
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+/* einde 2e pagina */
