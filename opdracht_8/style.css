@@ -251,4 +251,241 @@ footer ul {
 }
 .footer {
     padding-left: 2rem}
+    /* mobile */
+    @media screen and (max-width: 576px){
+      nav {
+        display: flex;
+        width: 100vw;
+        padding: 2rem;
+        height: 7.5vh;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        background: #131c27;
+        justify-content: space-between;
+        position: absolute;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+      }
+      li {
+        font-size: 3rem;
+        margin: 0rem;
+        
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      .navtitle {
+        color: white;
+        font-size: 3rem;
+        margin-left: 22rem;
+      }
+      /* einde nav */
+      /* begin 1e pagina */
+      .header1 {
+        text-align: center;
+        width: 100%;
+        padding-top: 40rem;
+        font-weight: bold;
+        font-size: 6rem;
+      }
+      .t1 {
+        text-align: center;
+        width: 100vw;
+        padding-top: 2em;
+        
+        font-size: 2rem;
+      }
+      .page1 {
+        background-image: url(img/landing-page.jpg);
+        background-size: cover;
+        color: white;
+        height: 100vh;
+      }
+      .button1 {
+        padding: 2rem 6rem;
+        margin-top: 5rem;
+        font-size: 2rem;
+        background-color: #4c6e97;
+        border: none;
+        color: #ffffff;
+      }
+      .button {
+        text-align: center;
+      }
+      
+      /* einde 1e pagina */
+      /* begin 2e pagina */
+      .page2 {
+        background-image: url(./img/new-york-page.png);
+        background-size: cover;
+        height: 100vh;
+        color: white;
+        background-color: grey;
+      }
+      .headerh2 {
+        border-bottom: solid white ;
+        width: 30rem;
+        font-size: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+        
+      }
+      .header2 {
+        font-weight: bold;
+        color: white;
+        padding-top: 40rem;
+        
+      }
+      .t2 {
+        font-size: 2.5rem;
+        margin-left: 3rem;
+      }
+      /* einde 2e pagina */
+      /* begin 3e pagina */
+      .page3 {
+        height: 175vh;
+        width: 100vw;
+      }
+      .titlep3 {
+        background-color: #131c27;
+        height: 30vh;
+        width: 100vw;
+      }
+      .header3 {
+        display: flex;
+        justify-content: center;
+        font-size: 6rem;
+        padding-top: 4rem;
+        text-align: center;
+      }
+      .t3 {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+        padding-top: 3rem;
+        text-align: center;
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        flex-direction: column;
+        
+      }
+      .headerp3 {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 4rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+      }
+      .textp3 {
+        color: black;
+        font-size: 2rem;
+        padding-right: 1rem;
+        line-height: 2rem;
+        text-align: center;
+        width: 20rem;
+      }
+      .departure {
+        margin-top: 1rem;
+        width: 70vw;
+        height: 45vh;
+        box-shadow: 0.3rem 0.5rem 6rem grey;
+      }
+      .departureimg {
+        background-color: #131c27;
+        height: 10vh;
+        width: 70vw;
+      }
+      /* einde 3e pagina */
+      /* begin 4e pagina */
+      .page4 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(./img/contact-mountain.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .contactus {
+        height: 40vh;
+        width: 70vw;
+        display: flex;
+      
+        border-radius: 3rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .contacttitle {
+        font-size: 4rem;
+        padding-top: 5rem;
+      }
+      .name {
+        color: white;
+        margin-top: 4rem;
+        font-size: 3rem;
+      }
+      .email {
+        color: white;
+        margin-top: 2rem;
+        font-size: 3rem;
+      }
+      input {
+        width: 30vw;
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem 1rem;
+      }
+      .button2 {
+        margin-top: 5rem;
+        height: 10vh;
+        width: 70vw;
+        font-size: 2rem;
+        background-color: #4c6e97;
+        border-radius: 0rem 0rem 3rem 3rem;
+        color: white;
+        border: none;
+      }
+      /* einde 4e pagina */
+      /* footer */
+      footer {
+        background-color: var(--color);
+        background-color: #131c27;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        font-size: 4rem;
+        align-items: center;
+        font-size: 2rem;
+        height: 10vh;
+        position: absolute;
+        width: 70vw;
+        bottom: 0;
+      }
+      
+      
+      footer ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50vw;
+        padding-right: 2rem;
+        list-style-type: none;
+      }
+      .footer {
+          padding-left: 2rem}
+    }
+    /* mobile */
 
